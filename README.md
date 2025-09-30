@@ -45,7 +45,7 @@ ADMINS = [123456789]
 
 ## Author
 
-Your Name - [MuttaqiynDev](https://github.com/MuttaqiynDev)
+[MuttaqiynDev](https://github.com/MuttaqiynDev)
 
 ---
 
