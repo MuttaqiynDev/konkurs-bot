@@ -26,38 +26,22 @@ A feature-rich Telegram bot built with aiogram 3.x that implements a referral sy
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/telegram-referral-bot.git
+git clone https://github.com/MuttaqiynDev/konkurs-bot.git
 cd telegram-referral-bot
 ```
 
 2. Install dependencies:
 ```bash
-pip install aiogram
+pip install requirenents.txt
 ```
 
 3. Create a `config.py` file with your settings:
 ```python
 BOT_TOKEN = "your_bot_token_here"
 CHANNEL_ID = -1001234567890  # Your channel ID
-ADMINS = [123456789]  # List of admin user IDs
+ADMINS = [123456789] 
 ```
 
-4. Set up your database (create a `database.py` file with the following functions):
-```python
-async def add_user(user_id, name, inviter_id)
-async def get_user(user_id)
-async def increment_referral_count(user_id)
-async def get_top_referrals()
-async def get_total_stats()
-async def get_all_users()
-```
-
-5. Create a `keyboards.py` file with required keyboard layouts:
-```python
-def check_sub_keyboard()
-def referral_keyboard(ref_link)
-def admin_keyboard()
-```
 
 ## Project Structure
 
